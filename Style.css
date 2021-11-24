@@ -192,7 +192,7 @@ border-bottom: 5px solid rgba(32, 32, 32, 0.2)
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 30%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -206,7 +206,7 @@ border-bottom: 5px solid rgba(32, 32, 32, 0.2)
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 42%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
