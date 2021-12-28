@@ -1,408 +1,403 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-.navbar{
-    width:100%;
-    background-color:black;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 25px;
+.navbar {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 25px;
 }
-.login-redeem{
-    width: 200px;
-    display: flex;
-    margin-right: 13%
+.login-redeem {
+  width: 200px;
+  display: flex;
+  margin-right: 13%;
 }
 
-.nav-buttons{
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    cursor:pointer;
+.nav-buttons {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
 #login {
-    margin-right: 10%;
+  margin-right: 10%;
 }
-.father-nav-div{
-    width: 100%;
-    display:flex;
-    justify-content: space-around;
-    background-color: rgb(37, 37, 37);
+.father-nav-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(37, 37, 37);
 }
-.minecraftlogo{
-    width: 40%;
-    margin-left: 13%;
+.minecraftlogo {
+  width: 40%;
+  margin-left: 13%;
 }
-.minecraftlogo img{
-    width: 300px;
-    height: 50px;
+.minecraftlogo img {
+  width: 300px;
+  height: 50px;
 }
-.second-navbar{
-    width: 60%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: space-evenly;
-    margin-right: 13%;
+.second-navbar {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: space-evenly;
+  margin-right: 13%;
 }
-.gif-divs{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.gif-divs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#gif-games img{
-    width: 50px;
-    height: 40px;
+#gif-games img {
+  width: 50px;
+  height: 40px;
 }
-#gif-community img{
-    width: 70px;
-    height: 45px;
+#gif-community img {
+  width: 70px;
+  height: 45px;
 }
-#gif-merch img{
-    width: 55px;
-    height: 45px;
+#gif-merch img {
+  width: 55px;
+  height: 45px;
 }
-#gif-support img{
-    width: 45px;
-    height: 40px;
+#gif-support img {
+  width: 45px;
+  height: 40px;
 }
-.gif-divs i{
-    font-size: 22px;
-    color: white;
-    margin-left: 8px;
-    transition: 0.5s all;
+.gif-divs i {
+  font-size: 22px;
+  color: white;
+  margin-left: 8px;
+  transition: 0.5s all;
 }
-.gif-text{
-    font-size: 10px;
-    font-weight: 600;
-    color: white;
-    letter-spacing: 0.25px;
-    cursor: pointer;
+.gif-text {
+  font-size: 10px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.25px;
+  cursor: pointer;
 }
-.gif-divs i:hover{
-    transform: rotate(180deg);
-    cursor:pointer;
-    color:yellowgreen;
-}
-
-.gif-text:hover{
-    color:yellowgreen;
+.gif-divs i:hover {
+  transform: rotate(90deg);
+  cursor: pointer;
+  color: yellowgreen;
 }
 
-.minecraftlogo{
-    width: 350px;
-    height: 50px;
-    transition: 0.2s all;
+.gif-text:hover {
+  color: yellowgreen;
 }
-.minecraftlogo:hover{
-    transform:  scale(0.8);
+
+.minecraftlogo {
+  width: 350px;
+  height: 50px;
+  transition: 0.2s all;
 }
-.third-navbar{
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 0 0 4px;
-border-bottom: 5px solid rgba(32, 32, 32, 0.2)
+.minecraftlogo:hover {
+  transform: scale(0.8);
+}
+.third-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 4px;
+  border-bottom: 5px solid rgba(32, 32, 32, 0.2);
+}
+.sec-logo {
+  width: 30%;
+}
+#seclogo img {
+  width: 160px;
+  height: 40px;
+}
+.realm-server-marketplace a {
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: green;
+  font-weight: bolder;
+  font-size: 10px;
+}
+.realm-server-marketplace {
+  width: 40%;
+}
+.realm-server-marketplace a:hover {
+  background-color: #030303;
+  color: white;
+}
+.download-game {
+  width: 26%;
+}
+.download-game a {
+  width: fit-content;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 10px;
+  font-weight: bolder;
+  color: green;
+}
+.download-game a:hover {
+  background-color: #030303;
+  color: white;
+}
+.download-game button {
+  font-size: 18px;
+  width: 190px;
+  height: 50px;
+  background-color: rgb(2, 167, 2);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  border-top: 5px solid rgb(2, 189, 2);
+  border-bottom: 5px solid rgb(0, 80, 0);
+  font-weight: bolder;
+  border-radius: 2px;
+  transition: color 0.5s, background-color 0.5s, border-color 0.5s, transform 0.2s;
+}
+.download-game button:hover {
+  background-color: #030303;
+  color: white;
+  transform: scaleZ(0.8);
+  transform: scaleY(0.8);
+  border-color: transparent;
 
 }
-.sec-logo{
-    width: 30%;
+.heroimg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0a0a0a;
 }
-#seclogo img{
-    width: 160px;
-    height: 40px;
+.heroimg img {
+  width: 1200px;
+  height: 600px;
+  position: relative;
 }
-.realm-server-marketplace a{
-    text-decoration:none;
-    margin-right: 15px;
-    margin-left: 15px;
-    color: green;
-    font-weight: bolder;
-    font-size: 10px;
+.heroimg h1 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 1px;
 }
-.realm-server-marketplace{
-    width: 40%;
-
+.heroimg p {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Noto Sans";
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 2px;
 }
-.realm-server-marketplace a:hover{
-    background-color: #030303;
-    color: white;
-
+.minecraft-action {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(235, 234, 234);
 }
-.download-game{
-    width: 26%;
- 
+.minecraft-action h2 {
+  font-size: 28px;
+  font-family: "Noto Sans";
+  letter-spacing: 1px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
-.download-game a{
-    width: fit-content;
-    text-decoration: none;
-    margin-right: 20px;
-    font-size: 10px;
-    font-weight: bolder;
-    color: green;
+.action-images {
+  display: flex;
+  justify-content: center;
+  align-items: space-evenly;
 }
-.download-game a:hover{
-    background-color: #030303;
-    color: white;
-}
-.download-game button{
-    font-size: 18px;
-    width: 190px;
-    height: 50px;
-    background-color: rgb(2, 167, 2);
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: white;
-    border-top: 5px solid rgb(2, 189, 2);
-    border-bottom: 5px solid rgb(0, 80, 0);
-    font-weight: bolder;
-    border-radius: 2px;
-    transition: color 0.5s, background-color 0.5s, border-color 1s, transform 0.5;
-}
-.download-game button:hover{
-    background-color: #030303;
-    color: white;
-    border-color: #030303;
-    transform:scaleZ(1.1);
-    transform:scaleY(1.1);
-    border-radius: 2px;
-}
-.heroimg{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #0A0A0A;
-}
-.heroimg img{
-    width: 1200px;
-    height: 600px;
-    position: relative;
-}
-.heroimg h1{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 23%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: "Noto Sans";
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 1px;
-}
-.heroimg p{
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: "Noto Sans";
-    font-size: 18px;
-    line-height: 26px;
-    letter-spacing: 2px;
-}
-.minecraft-action{
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(235, 234, 234) ;
-}
-.minecraft-action h2{
-    font-size: 28px;
-    font-family: "Noto Sans";
-    letter-spacing: 1px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-.action-images{
-    display: flex;
-    justify-content: center;
-    align-items: space-evenly;
-}
-.action-img{
-    width: 160px;
-    height: 90px;
-    margin: 0 30px 0 0;
+.action-img {
+  width: 160px;
+  height: 90px;
+  margin: 0 30px 0 0;
 }
 .action-images #arrow-left {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    margin-right: 30px;
-    height: 90px;
-    font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-right: 30px;
+  height: 90px;
+  font-size: 20px;
 }
 .action-images #arrow-right {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-size: 20px;
 }
-.action-images #arrow-left:hover{
-    cursor: pointer;
-    transform: scale(0.8);
-    color: green;
+.action-images #arrow-left:hover {
+  cursor: pointer;
+  transform: scale(0.8);
+  color: green;
 }
-.action-images #arrow-right:hover{
-    cursor: pointer;
-    transform: scale(0.8);
-    color: green;
+.action-images #arrow-right:hover {
+  cursor: pointer;
+  transform: scale(0.8);
+  color: green;
 }
-.gameupdates{
-    width:100%;
-    height: 720px;
-    display: flex;
-    justify-content: center;
-    background-color: #e0e0e0;
-    flex-direction: column;
-    align-items: center;
+.gameupdates {
+  width: 100%;
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  background-color: #e0e0e0;
+  flex-direction: column;
+  align-items: center;
 }
 
-.updates-text h2{
-    font-family:"Noto Sans";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 28px;
-    letter-spacing: 1px;
-    margin: 75px 0 15px 0;
+.updates-text h2 {
+  font-family: "Noto Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin: 75px 0 15px 0;
 }
-.updates-text p{
-    font-family:"Noto Sans";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-align: center;
-    margin: 15px 0 55px 0;
+.updates-text p {
+  font-family: "Noto Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 15px 0 55px 0;
 }
-#slides-img{
-    width: 540px;
-    height: 320px;
-    margin: 30px;
+#slides-img {
+  width: 540px;
+  height: 320px;
+  margin: 30px;
 }
-.slides-image{
-    background-color: white;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 870px;
-    height: 380px;
+.slides-image {
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 870px;
+  height: 380px;
 }
-.slides-text{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: column;
+.slides-text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
 }
-.slides-text h2{
-    font-family:"Nato Sans";
-    font-size: 28px;
-    margin: 0 0 12.8px 0;
+.slides-text h2 {
+  font-family: "Nato Sans";
+  font-size: 28px;
+  margin: 0 0 12.8px 0;
 }
-.slides-text p{
-    font-family: "Nato Sans";
-    font-size: 15px;
-    font-weight: 500;
-    margin: 0 0 20.8px 0;
-    text-align: start;
-    letter-spacing: 1px;
-    
+.slides-text p {
+  font-family: "Nato Sans";
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 20.8px 0;
+  text-align: start;
+  letter-spacing: 1px;
 }
-span a{
-    font-family: "Noto Sans";
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-right: 150px;
-    font-weight: bolder;
-    color: green;
-    transition: 0.25s all;
+span a {
+  font-family: "Noto Sans";
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 150px;
+  font-weight: bolder;
+  color: green;
+  transition: 0.25s all;
 }
-span i{
-    margin-right: 7px;
-    color: green;
+span i {
+  margin-right: 7px;
+  color: green;
 }
-span:hover{
-    transform: scale(0.9);
-    cursor: pointer;
+span:hover {
+  transform: scale(0.9);
+  cursor: pointer;
 }
-#blank-row{
-    width: 100%;
-    height: 75px;
+#blank-row {
+  width: 100%;
+  height: 75px;
 }
-.social-media{
-    width:100%;
-    height: 300px;
+.social-media {
+  width: 100%;
+  height: 300px;
 }
-#follow{
-    font-size: 18px;
-    font-family: "Noto Sans";
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bolder;
-    letter-spacing: 3px;
-    margin-bottom: 15px;
-    text-align: center;
+#follow {
+  font-size: 18px;
+  font-family: "Noto Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  text-align: center;
 }
-.social-icons{
-    width: 100%;
-    display: flex;
-    font-size: 55px;
-    justify-content: center;
-    color: green;
-    transition: 1s all;
+.social-icons {
+  width: 100%;
+  display: flex;
+  font-size: 55px;
+  justify-content: center;
+  color: green;
+  transition: 1s all;
 }
 .social-icons i:hover {
-transform: scale(1.2);
-color: rgb(34, 34, 34);
+  transform: scale(1.2);
+  color: rgb(34, 34, 34);
 }
-#subscribers{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+#subscribers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-#subscribers p{
-    background-color: rgba(177, 177, 177, 0.699);
-    margin-bottom: 20px;
-    font-family: "Noto Sans";
-    font-weight: 200;
+#subscribers p {
+  background-color: rgba(177, 177, 177, 0.699);
+  margin-bottom: 20px;
+  font-family: "Noto Sans";
+  font-weight: 200;
 }
-.blank-black{
-    background-color: black;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end
+.blank-black {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-.blank-black p{
-    color: white;
-    font-size: 14px;
+.blank-black p {
+  color: white;
+  font-size: 14px;
 }
